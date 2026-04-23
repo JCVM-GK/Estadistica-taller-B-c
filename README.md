@@ -19,12 +19,14 @@ Antes de calcular, el usuario debe definir si su experimento es Finito (dados, m
 Regla de Oro: Si el espacio muestral contiene palabras (ej. "Cara"), los filtros matemáticos como "Pares" no funcionarán, ya que la naturaleza del dato es categórica, no numérica.
 
 
- B. Análisis de Relaciones Lógicas
+Regla de Oro: Si el espacio muestral contiene palabras (ej. "Cara"), los filtros matemáticos como "Pares" no funcionarán, ya que la naturaleza del dato es categórica, no numérica.
+
+ A. Análisis de Relaciones Lógicas
 Para determinar si dos eventos pueden ocurrir simultáneamente, el software utiliza la intersección:
 Sucesos Compatibles: Si el programa muestra elementos en la intersección, pueden ocurrir a la vez.
 Sucesos Incompatibles: Si el resultado es set(), son mutuamente excluyentes.
 
-C. Extracción de Muestras Representativas
+ B. Extracción de Muestras Representativas
 Para evitar el Muestreo No Probabilístico (por conveniencia o sin norma) , el software utiliza el Factor de Elevación ($FE$).
 El usuario ingresa la Población ($N$) y el tamaño deseado ($n$).
 El software calcula el intervalo $k$.
