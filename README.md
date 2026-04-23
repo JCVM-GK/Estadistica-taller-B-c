@@ -8,7 +8,11 @@ Este software está diseñado para transformar conceptos abstractos de probabili
 2. Guía de Módulos 
 
 
-
+| Modulo | Funcion Estadistica | Aplicación Teórica |
+| :--- | :---: | ---: |
+| Simulaciones | Genera experimentos aleatorios repetitivos. | Validación de la Regla de Laplace mediante la frecuencia. |
+| Calculadora de Sucesos | Gestiona conjuntos y subconjuntos del Espacio Muestral (S). | Análisis de compatibilidad, complementariedad y probabilidad clásica. |
+| Generador de Muestreo | Extrae una parte representativa de una población. | Ejecución de Muestreo Probabilístico Sistemático. |
 3. Protocolos de Operación (El "Cómo" usarlo)
 A. Identificación del Universo (Espacio Muestral)
 Antes de calcular, el usuario debe definir si su experimento es Finito (dados, monedas) o Infinito (teórico).
