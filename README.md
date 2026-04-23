@@ -2,8 +2,11 @@
 
 Manual de Operación: Stat-Sim Pro
 1. Filosofía del Sistema
-El software está diseñado para transformar conceptos abstractos de probabilidad en datos tangibles. Su objetivo es permitir al usuario experimentar con la frecuencia de resultados para entender patrones a largo plazo.
+   
+Este software está diseñado para transformar conceptos abstractos de probabilidad en datos tangibles. Su objetivo es permitir al usuario experimentar con la frecuencia de resultados para entender patrones a largo plazo.
+
 2. Guía de Módulos 
+
 
 
 3. Protocolos de Operación (El "Cómo" usarlo)
@@ -12,7 +15,7 @@ Antes de calcular, el usuario debe definir si su experimento es Finito (dados, m
 Regla de Oro: Si el espacio muestral contiene palabras (ej. "Cara"), los filtros matemáticos como "Pares" no funcionarán, ya que la naturaleza del dato es categórica, no numérica.
 
 
-B. Análisis de Relaciones Lógicas
+ B. Análisis de Relaciones Lógicas
 Para determinar si dos eventos pueden ocurrir simultáneamente, el software utiliza la intersección:
 Sucesos Compatibles: Si el programa muestra elementos en la intersección, pueden ocurrir a la vez.
 Sucesos Incompatibles: Si el resultado es set(), son mutuamente excluyentes.
